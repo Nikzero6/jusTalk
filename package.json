@@ -1,0 +1,26 @@
+{
+  "name": "justalk",
+  "version": "1.0.0",
+  "description": "realtime chat application",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nikzero6/jusTalk.git"
+  },
+  "author": "Nikhil Rai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nikzero6/jusTalk/issues"
+  },
+  "homepage": "https://github.com/Nikzero6/jusTalk#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1"
+  }
+}

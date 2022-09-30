@@ -1,0 +1,26 @@
+.pureInput {
+  border: none;
+  padding: 0.5rem;
+}
+
+.pureInput:focus,
+.pureInput:active {
+  border: none;
+}
+
+.colorInput {
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 4px !important;
+  width: 64px;
+  height: 30px;
+}
+.colorInput::-webkit-color-swatch-wrapper {
+  padding: 0;
+  border: none;
+}
+.colorInput::-webkit-color-swatch {
+  border: none;
+  border: 1px solid rgb(209 213 219);
+  border-radius: 4px !important;
+}
